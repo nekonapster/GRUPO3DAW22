@@ -19,7 +19,7 @@
  );
 
  // Parseo de la ruta
- if (isset($_GET['ctl'])) {
+ if (isset($_GET['ctl' ])) {
      if (isset($map[$_GET['ctl']])) {
          $ruta = $_GET['ctl'];
      } else {
