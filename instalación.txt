@@ -1,0 +1,18 @@
+PARTE 1.-
+ - En la carpeta donde tengo el proyecto, abro la bash de git y hago un "git init".
+ - Utilizo los comandos "git add app/Model.php" y "git add instalación.txt" para llevar el seguimiento de los archivos que son mi responsabilidad.
+
+PARTE 2.-
+ - En el panel de control de la plataforma de pruebas de mi dominio de cdmon, selecciono "MySQL".
+ - Dentro de "MySQL", creo una nueva base de datos de nombre "alimentos32022".
+ - A continuación, accedo al phpMyAdmin con el usuario y la contraseña que me proporciona cdmon.
+ - Finalmente, en la base de datos que hemos creado, ejecutamos el código SQL que se me proporciona en la práctica.
+
+PARTE 3.-
+ - Utilizamos SSH en la terminal con el siguiente comando "ssh diqi548003@ssh.diqi.es.mialias.net" e introduciendo la contraseña previamente creada en cdmon.
+ - Nos colocamos en la carpeta web/ mediante el comando "cd ../web".
+ - Creamos una carpeta para el proyecto con el comando "mkdir alimentos32022" y nos colocamos dentro con el comando "cd alimentos32022".
+ - Hacemos un "git init" en el directorio del proyecto.
+ - Utilizamos el comando "git config --global http.sslVerify false" para evitar la verificación SSL.
+ - Establecemos una conexión con el repositorio de GitHub utilizando "git remote add origin https://github.com/nekonapster/GRUPO3DAW22.git".
+ - Nos descargamos los archivos del proyecto utilizando el comando "git pull origin main".
