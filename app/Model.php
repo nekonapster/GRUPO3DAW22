@@ -6,7 +6,7 @@
 
      public function __construct($dbname,$dbuser,$dbpass,$dbhost)
      {
-       $mvc_bd_conexion = mysqli_connect($dbhost, $dbuser, $dbpass,$dbname);
+       $mvc_bd_conexion = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 
        if (!$mvc_bd_conexion) {
            die('No ha sido posible realizar la conexión con la base de datos: ' .mysqli_connect_error());
