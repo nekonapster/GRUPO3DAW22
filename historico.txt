@@ -1,0 +1,17 @@
+-Tras recibir los datos necesarios (nombre, usuario y contraseña) de la base de datos creada
+por mi compañero, he modificado en mi equipo local el archivo config.php, y he cambiado los datos
+que había a los nuevos de nuestra base de datos.
+
+-Me he conectado por remoto a nuestro repositorio con el comando "git remote add origin"
+
+-He clonado nuestra carpeta con el comando "git clone https://github.com/nekonapster/GRUPO3DAW22"
+
+-Tras modificar el archivo, abro el bash en mi carpeta local y añado los tres archivos correspondientes a mi parte con "git add" al remoto.
+
+-Para confirmar los cambios, "git commit -m 'mensaje personalizado que quieras'"
+
+-Y por último, para subirlo al remoto, procedo a usar "git push -u origin master"
+
+-Compruebo que los cambios se han guardado correctamente en el repositorio remoto y procedo a crear el histórico.
+
+*URL: http://diqi.es.mialias.net/alimentos32022/web
