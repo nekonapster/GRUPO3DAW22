@@ -15,4 +15,4 @@ PARTE 3.-
  - Hacemos un "git init" en el directorio del proyecto.
  - Utilizamos el comando "git config --global http.sslVerify false" para evitar la verificación SSL.
  - Establecemos una conexión con el repositorio de GitHub utilizando "git remote add origin https://github.com/nekonapster/GRUPO3DAW22.git".
- - Nos descargamos los archivos del proyecto utilizando el comando "git pull origin main".
+ - Nos descargamos los archivos del proyecto utilizando el comando "git pull origin master".
